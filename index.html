@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Righteous&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./project book2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+</head>
+<body class="body">
+
+      <!-- =====>Responsive navbar<===== -->
+           <div class="res-navbar bg-primary">
+              <div class="navbar-left">
+                <img src="./photos/book logo.png" alt="">
+              </div>
+              <div class="navbar-center">
+                  <div class="res-box-search">
+                    <input  type="text">
+                  </div>
+                  <div class="res-box-find">
+                    <i class="fa-solid find2 fa-magnifying-glass"></i>
+                  </div>
+                  
+              </div>
+              <div class="navbar-right">
+                <div class="box-left">
+                  <i class="fa-solid fa-list"></i>
+                </div>
+                <div class="box-right">
+                  <i class="fa-regular fa-circle-user"></i>
+                </div>
+              </div>
+
+              
+
+           </div>
+              <div class="R-log">
+                   <div class="res-login">
+                  <button class="btn  btn-primary res-cancel">&times;</button>
+                   </div>
+              </div>
+           
+           <div class="box-list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Khmer Books</a></li>
+                    <li><a href="#">English Books</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+           </div>
+           
+           <div class="res_opacity1">
+            <div class="res_signup">
+                 <form action="">
+                       <div class="form-group">
+                            <label for="">Username:</label>
+                            <input class="form-control" type="text">
+                       </div>
+
+                       <div class="form-group">
+                            <label for="">Email:</label>
+                            <input class="form-control" type="email">
+                      </div>
+
+                       <div class="form-group">
+                            <label for="">Newpassword:</label>
+                            <input class="form-control" type="password">
+                      </div>
+                      <button class="btn btn-success">login</button>
+                 </form>
+            </div>
+           </div>
+           
+              
+           </div>
+      <!-- =====>Responsive navbar<===== -->
+
+
+      <!-- ===>Navbar<=== -->
+
+       <div class="box bg-primary">
+          <div class="container bg-primary  p-0 con_1">
+             <div class="box-title">
+                 <div class="box-img">
+                    <img src="./photos/book logo.png" alt="">
+                 </div>
+                 <div class="title">
+                  <ul>
+                     <li class="home"><a href="#">
+                        <i class="fa-solid fa-house"></i>
+                     </a></li>
+                     <li><a href="#">All</a></li>
+                     <li><a href="#">Khmer</a></li>
+                     <li><a href="#">English</a></li>
+                     <li><a href="#">About Us</a></li>
+                  </ul>
+                 </div>
+             </div>
+             <div class="box-search">
+                 <div class="search">
+                    <input  type="text" name="" placeholder="Search...!" id="">
+                 </div>
+                 <div class="find">
+                  <i class="fa-solid find1 fa-magnifying-glass"></i>
+                 </div>
+             </div>
+             <div class="box-signup">
+                 <div class="box-left">
+                    <div class="moon">
+                      <div class="day">
+                        <i class="fa-regular fa-moon"></i>
+                      </div>
+                    </div>
+                 </div>
+                 <div class="box-right">
+                    <button class="btn btn-danger">Sign Up</button>
+                 </div>
+             </div>
+          </div>
+       </div>
+       
+
+       <!-- ===>Navbar<=== -->
+
+
+        <!--====> Body store <====-->
+
+       <div class="book_store">
+          <div class="container mt-2  khmer text-center">Khmer Books</div>
+          <div class="d-flex justify-content-center  align-items-center">
+                     <div class="line"></div>
+                     <div class="main-line"></div>
+                     <div class="line"></div>
+          </div>
+     
+        
+ 
+          <div class="container mt-3">
+            <div class="row row_1">
+                <div class="col-3  pl-0 " style="height: 400px;">
+                       <img src="./photos/កុលាបប៉ៃលិន (1).jfif" alt="">
+                       <div class="img2">
+                         <img  src="./photos/កុលាបប៉ៃលិន2.JPG" alt="">
+                       </div>
+                       <div class="img3">
+                         <img src="./photos/កុលាបប៉ៃលិន2.JPG" alt="">
+                       </div>
+                       <div class="img4">
+                         <img src="./photos/កុលាបប៉ៃលិន (1).jfif" alt="">
+                       </div>
+                       <div class="col-3_opacity">
+                         <div class="box-detail">
+                              <center>
+                                 <h3>កុលាបប៉ៃលិន</h3>
+                                 <p class="p">
+                                  ​រឿងកុលាបប៉ៃលិនគឺជាស្នាដៃនិពន្ធ របស់លោកញ៉ុកថែម។
+                                  ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                                 </p>
+                                 <i class="fa-regular fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                                
+                                
+                                 <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                                 <button class="btn btn-click btn-danger mt-3">Detail</button>
+                              </center>
+                         </div>
+                       </div>
+                </div>
+ 
+                <div class="col-3  pl-0 " style="height: 400px;">
+                   <img src="./photos/ផ្កាស្រពោន.JPG" alt="">
+                   <div class="img2">
+                      <img  src="./photos/ផ្កាស្រពោន​2.jpeg" alt="">
+                    </div>
+                    <div class="img3">
+                      <img src="./photos/ផ្កាស្រពោន3.jfif" alt="">
+                    </div>
+                    <div class="img4">
+                      <img src="./photos/ផ្កាស្រពោន.JPG" alt="">
+                    </div>
+                   <div class="col-3_opacity">
+                     <div class="box-detail">
+                          <center>
+                             <h3>ផ្កាស្រពោន</h3>
+                             <p class="p">
+                               ​រឿងផ្កាស្រពោនជាស្នាដៃនិពន្ធ​ របស់លោកនូហាច។
+                               ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                              </p>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                            
+                            
+                             <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                             <button class="btn btn-click btn-danger mt-3">Detail</button>
+                          </center>
+                     </div>
+                   </div>
+               </div>
+ 
+               <div class="col-3  pl-0  " style="height: 400px;">
+                <img src="./photos/ទុំទាវ.jpg" alt="">
+                <div class="img2">
+                   <img  src="./photos/ទុំទាវ.jpg" alt="">
+                 </div>
+                 <div class="img3">
+                   <img src="./photos/ទុំទាវ3.jpg" alt="">
+                 </div>
+                 <div class="img4">
+                   <img src="./photos/ទុំទាវ.jpg" alt="">
+                 </div>
+                <div class="col-3_opacity">
+                  <div class="box-detail">
+                       <center>
+                          <h3>ទុំទាវ</h3>
+                          <p class="p">
+                            រឿងទុំទាវគឺជាស្នាដែនិពន្ធដោយ ព្រះសង្ឃភិក្ខុសោម.
+                            ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                           </p>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                         
+                         
+                          <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                          <button class="btn btn-click btn-danger mt-3">Detail</button>
+                       </center>
+                  </div>
+                </div>
+              </div>
+ 
+ 
+              <div class="col-3  pl-0 " style="height: 400px;">
+                <img src="./photos/ភ្នំនាងកង្រី.jpg" alt="">
+                <div class="img2">
+                   <img  src="./photos/នាងកង្រី2.jpeg" alt="">
+                 </div>
+                 <div class="img3">
+                   <img src="./photos/ភ្នំនាងកង្រី.jpg" alt="">
+                 </div>
+                 <div class="img4">
+                   <img src="./photos/ភ្នំនាងកង្រី.jpg" alt="">
+                 </div>
+                <div class="col-3_opacity">
+                  <div class="box-detail">
+                       <center>
+                          <h3>ភ្នំនាងកង្រី</h3>
+                          <p class="p">
+                            រឿងភ្នំនាងកង្រី.
+                            ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                           </p>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                         
+                         
+                          <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                          <button class="btn btn-click btn-danger mt-3">Detail</button>
+                       </center>
+                    </div>
+                  </div>
+               </div>
+ 
+ 
+ 
+ 
+            </div>
+          </div>
+ 
+          <div class="container mt-3">
+         <div class="row row_1">
+             <div class="col-3  pl-0 " style="height: 400px;">
+                    <img src="./photos/សុផាត.jpg" alt="">
+                    <div class="img2">
+                      <img  src="./photos/សុផាត2.jfif" alt="">
+                    </div>
+                    <div class="img3">
+                      <img src="./photos/សុផាត2.jfif" alt="">
+                    </div>
+                    <div class="img4">
+                      <img src="./photos/សុផាត.jpg" alt="">
+                    </div>
+                    <div class="col-3_opacity">
+                      <div class="box-detail">
+                           <center>
+                              <h3>រឿងសូផាត</h3>
+                              <p class="p">
+                               រឿងសូផាត.
+                               ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                              </p>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                             
+                             
+                              <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                              <button class="btn btn-click btn-danger mt-3">Detail</button>
+                           </center>
+                      </div>
+                    </div>
+             </div>
+ 
+             <div class="col-3  pl-0 " style="height: 400px;">
+                <img src="./photos/ចិត្តស្រ្តាសសាងស្នេហ៏.jpeg" alt="">
+                <div class="img2">
+                  <img  src="./photos/ចិត្តស្រ្តាសសាងស្នេហ៏.jpeg" alt="">
+                </div>
+                <div class="img3">
+                  <img src="./photos/ចិត្តស្រ្តាសសាងស្នេហ៏.jpeg" alt="">
+                </div>
+                <div class="img4">
+                  <img src="./photos/ចិត្តស្រ្តាសសាងស្នេហ៏.jpeg" alt="">
+                </div>
+                <div class="col-3_opacity">
+                  <div class="box-detail">
+                       <center>
+                          <h3>សាងស្នេហ៏</h3>
+                          <p class="p">
+                            ចិត្តស្រ្តាសសាងស្នេហ៏.
+                            ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                           </p>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                         
+                         
+                          <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                          <button class="btn btn-click btn-danger mt-3">Detail</button>
+                       </center>
+                  </div>
+                </div>
+            </div>
+ 
+            <div class="col-3  pl-0  " style="height: 400px;">
+             <img src="./photos/ព្រះវេស្សន្ត.jfif" alt="">
+             <div class="img2">
+              <img  src="./photos/ព្រះវេស្សន្ត.jfif" alt="">
+            </div>
+            <div class="img3">
+              <img src="./photos/ព្រះវេស្សន្ត.jfif" alt="">
+            </div>
+            <div class="img4">
+              <img src="./photos/ព្រះវេស្សន្ត.jfif" alt="">
+            </div>
+             <div class="col-3_opacity">
+               <div class="box-detail">
+                    <center>
+                       <h3>ព្រះវេស្សន្ត</h3>
+                       <p class="p">
+                        រឿងព្រះវេស្សន្ត.
+                        ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                       </p>
+                       <i class="fa-regular fa-star"></i>
+                       <i class="fa-regular fa-star"></i>
+                       <i class="fa-regular fa-star"></i>
+                       <i class="fa-regular fa-star"></i>
+                      
+                      
+                       <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                       <button class="btn btn-click btn-danger mt-3">Detail</button>
+                    </center>
+               </div>
+             </div>
+           </div>
+ 
+ 
+           <div class="col-3  pl-0 " style="height: 400px;">
+             <img src="./photos/asian.jfif" alt="">
+             <div class="img2">
+              <img  src="./photos/asian.jfif" alt="">
+            </div>
+            <div class="img3">
+              <img src="./photos/asian.jfif" alt="">
+            </div>
+            <div class="img4">
+              <img src="./photos/asian.jfif" alt="">
+            </div>
+             <div class="col-3_opacity">
+               <div class="box-detail">
+                    <center>
+                       <h3>អាស៊ាន</h3>
+                       <p class="p">
+                        អាស៊ាន.
+                        ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                       </p>
+                       <i class="fa-regular fa-star"></i>
+                       <i class="fa-regular fa-star"></i>
+                       <i class="fa-regular fa-star"></i>
+                       <i class="fa-regular fa-star"></i>
+                      
+                      
+                       <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                       <button class="btn btn-click btn-danger mt-3">Detail</button>
+                    </center>
+                 </div>
+               </div>
+            </div>
+ 
+ 
+ 
+ 
+         </div>
+          </div>
+
+
+          <div class="container mt-2  khmer1 text-center">English Books</div>
+          <div class="d-flex justify-content-center  align-items-center">
+                     <div class="line"></div>
+                     <div class="main-line"></div>
+                     <div class="line"></div>
+          </div>
+
+          <div class="container mt-3">
+            <div class="row row_1">
+                <div class="col-3  pl-0 " style="height: 400px;">
+                       <img src="./photos/who in your room.jfif" alt="">
+                       <div class="img2">
+                         <img  src="./photos/who in your room.jfif" alt="">
+                       </div>
+                       <div class="img3">
+                         <img src="./photos/who in your room.jfif" alt="">
+                       </div>
+                       <div class="img4">
+                         <img src="./photos/who in your room.jfif" alt="">
+                       </div>
+                       <div class="col-3_opacity">
+                         <div class="box-detail">
+                              <center>
+                                 <h3>Your Room</h3>
+                                 <p class="p">
+                                  ​Who's in your Room?
+                                  ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                                 </p>
+                                 <i class="fa-regular fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                                
+                                
+                                 <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                                 <button class="btn btn-click btn-danger mt-3">Detail</button>
+                              </center>
+                         </div>
+                       </div>
+                </div>
+ 
+                <div class="col-3  pl-0 " style="height: 400px;">
+                   <img src="./photos/the war of art.jpeg" alt="">
+                   <div class="img2">
+                      <img  src="./photos/the war of art.jpeg" alt="">
+                    </div>
+                    <div class="img3">
+                      <img src="./photos/the war of art.jpeg" alt="">
+                    </div>
+                    <div class="img4">
+                      <img src="./photos/the war of art.jpeg" alt="">
+                    </div>
+                   <div class="col-3_opacity">
+                     <div class="box-detail">
+                          <center>
+                             <h3>War of art</h3>
+                             <p class="p">
+                               ​The war of art.
+                               ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                              </p>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                            
+                            
+                             <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                             <button class="btn btn-click btn-danger mt-3">Detail</button>
+                          </center>
+                     </div>
+                   </div>
+               </div>
+ 
+               <div class="col-3  pl-0  " style="height: 400px;">
+                <img src="./photos/7 habits.jpg" alt="">
+                <div class="img2">
+                   <img  src="./photos/7 habits.jpg" alt="">
+                 </div>
+                 <div class="img3">
+                   <img src="./photos/7 habits.jpg" alt="">
+                 </div>
+                 <div class="img4">
+                   <img src="./photos/7 habits.jpg" alt="">
+                 </div>
+                <div class="col-3_opacity">
+                  <div class="box-detail">
+                       <center>
+                          <h3>7 habits</h3>
+                          <p class="p">
+                            living and 7 habits.
+                            ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                           </p>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                         
+                         
+                          <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                          <button class="btn btn-click btn-danger mt-3">Detail</button>
+                       </center>
+                  </div>
+                </div>
+              </div>
+ 
+ 
+              <div class="col-3  pl-0 " style="height: 400px;">
+                <img src="./photos/law of attraction.jpg" alt="">
+                <div class="img2">
+                   <img  src="./photos/law of attraction.jpg" alt="">
+                 </div>
+                 <div class="img3">
+                   <img src="./photos/law of attraction.jpg" alt="">
+                 </div>
+                 <div class="img4">
+                   <img src="./photos/law of attraction.jpg" alt="">
+                 </div>
+                <div class="col-3_opacity">
+                  <div class="box-detail">
+                       <center>
+                          <h3>law of attraction</h3>
+                          <p class="p">
+                            Law of attraction.
+                            ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                           </p>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                         
+                         
+                          <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                          <button class="btn btn-click btn-danger mt-3">Detail</button>
+                       </center>
+                    </div>
+                  </div>
+               </div>
+ 
+ 
+ 
+ 
+            </div>
+          </div>
+
+          <div class="container mt-3">
+            <div class="row row_1">
+                <div class="col-3  pl-0 " style="height: 400px;">
+                       <img src="./photos/5 second rule.jpg" alt="">
+                       <div class="img2">
+                         <img  src="./photos/5 second rule.jpg" alt="">
+                       </div>
+                       <div class="img3">
+                         <img src="./photos/5 second rule.jpg" alt="">
+                       </div>
+                       <div class="img4">
+                         <img src="./photos/5 second rule.jpg" alt="">
+                       </div>
+                       <div class="col-3_opacity">
+                         <div class="box-detail">
+                              <center>
+                                 <h3>The 5 second rule</h3>
+                                 <p class="p">
+                                  The 5 second rule.
+                                  ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                                 </p>
+                                 <i class="fa-regular fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                                
+                                
+                                 <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                                 <button class="btn btn-click btn-danger mt-3">Detail</button>
+                              </center>
+                         </div>
+                       </div>
+                </div>
+ 
+                <div class="col-3  pl-0 " style="height: 400px;">
+                   <img src="./photos/7 strategies.jfif" alt="">
+                   <div class="img2">
+                      <img  src="./photos/7 strategies.jfif" alt="">
+                    </div>
+                    <div class="img3">
+                      <img src="./photos/7 strategies.jfif" alt="">
+                    </div>
+                    <div class="img4">
+                      <img src="./photos/7 strategies.jfif" alt="">
+                    </div>
+                   <div class="col-3_opacity">
+                     <div class="box-detail">
+                          <center>
+                             <h3>The 7 strategies.</h3>
+                             <p class="p">
+                               The 7 strategies.
+                               ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                              </p>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                            
+                            
+                             <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                             <button class="btn btn-click btn-danger mt-3">Detail</button>
+                          </center>
+                     </div>
+                   </div>
+               </div>
+ 
+               <div class="col-3  pl-0  " style="height: 400px;">
+                <img src="./photos/Think and grow rich.jpg" alt="">
+                <div class="img2">
+                   <img  src="./photos/Think and grow rich.jpg" alt="">
+                 </div>
+                 <div class="img3">
+                   <img src="./photos/Think and grow rich.jpg" alt="">
+                 </div>
+                 <div class="img4">
+                   <img src="./photos/Think and grow rich.jpg" alt="">
+                 </div>
+                <div class="col-3_opacity">
+                  <div class="box-detail">
+                       <center>
+                          <h3>Think and grow rich</h3>
+                          <p class="p">
+                            Think and grow rich.
+                            ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                           </p>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                         
+                         
+                          <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                          <button class="btn btn-click btn-danger mt-3">Detail</button>
+                       </center>
+                  </div>
+                </div>
+              </div>
+ 
+ 
+              <div class="col-3  pl-0 " style="height: 400px;">
+                <img src="./photos/Think yourself rich.jpg" alt="">
+                <div class="img2">
+                   <img  src="./photos/Think yourself rich.jpg" alt="">
+                 </div>
+                 <div class="img3">
+                   <img src="./photos/Think yourself rich.jpg" alt="">
+                 </div>
+                 <div class="img4">
+                   <img src="./photos/Think yourself rich.jpg" alt="">
+                 </div>
+                <div class="col-3_opacity">
+                  <div class="box-detail">
+                       <center>
+                          <h3>Think yourself rich</h3>
+                          <p class="p">
+                            Think yourself rich.
+                            ដើម្បីទទួលបានសៀវភៅនេះសូមចុច buy now
+                           </p>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                         
+                         
+                          <i class="fa-solid fa-star-half-stroke"></i>
+ 
+                          <button class="btn btn-click btn-danger mt-3">Detail</button>
+                       </center>
+                    </div>
+                  </div>
+               </div>
+ 
+ 
+ 
+ 
+            </div>
+          </div>
+
+          
+ 
+       </div>
+   
+       <!--====> Body store <====-->
+
+       <!-- ===>Footer<=== -->
+
+       
+        <div class="container mt-2  khmer2  text-center">Footer</div>
+        <div class="d-flex justify-content-center  align-items-center">
+                   <div class="line"></div>
+                   <div class="main-line"></div>
+                   <div class="line"></div>
+        </div>
+
+       <div class="container-fluid bg-primary mt-3">
+           <div class="container  p-0">
+            <div class="row  ">
+              <div class="col-4 mt-2 ">
+                  <h4>Thon Piseth</h4>
+                  <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">Khmer Books</a></li>
+                     <li><a href="#">English Books</a></li>
+                     <li><a href="#">About Us</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-4 mt-2">
+               <h4>Sponser</h4>
+                 <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Khmer Books</a></li>
+                    <li><a href="#">English Books</a></li>
+                    <li><a href="#">About Us</a></li>
+                 </ul>
+             </div>
+
+             <div class="col-4 mt-2">
+               <h4>Follow</h4>
+                 <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Tik Tok</a></li>
+                 </ul>
+             </div>
+          </div>
+           </div>
+      
+
+       <!-- ===>Footer<=== -->
+
+
+       <div class="box-login">
+            <button class="btn btn-danger cancel">&times;</button>
+
+           <form action="">
+              <div class="form-group">
+                  <label for="">Username:</label>
+                  <input class="form-control" type="text" name="" id="">
+              </div>
+
+              <div class="form-group">
+                 <label for="">Email:</label>
+                 <input class="form-control" type="email" name="" id="">
+             </div>
+
+             <div class="form-group">
+                 <label for="">Password:</label>
+                 <input class="form-control" type="password" name="" id="">
+            </div>
+
+           </form>
+            
+          <button type="submit" class="btn btn-primary login">login</button>
+       </div>
+
+       <div class="show"></div>
+
+       
+
+
+       <div class="opacity2 ">
+        <div class="detail ">
+              <div class="d-left">
+                  <img src="" alt="">
+              </div>
+              <div class="d-right">
+                  <div class="right-top">
+                     <div class="top-left">
+                        <img src="" alt="">
+                     </div>
+
+                     <div class="top-center">
+                        <img src="" alt="">
+                     </div>
+
+                     <div class="top-right">
+                        <img src="" alt="">
+                     </div>
+                    
+                    
+                  </div>
+                  <div class="right-bot">
+                        <center>
+                            <h3></h3>
+                            <p></p>
+                             <button class="btn mt-2 btn-danger">Buy Now</button>
+                        </center>
+                  </div>
+              </div>
+        </div>
+       </div>
+
+       
+</body>
+</html>
+
+<script>
+    
+    var find = document.querySelector('.find1');
+        find.addEventListener('click',function(){
+            var search = document.querySelector('.search');
+            search.classList.toggle('add_input');
+            
+        })
+
+    var moon = document.querySelector('.moon');
+        moon.addEventListener('click',function(){
+             var day = document.querySelector('.day');
+             var opacity1 = document.querySelector('.body');
+             var khmer = document.querySelector('.khmer');
+             var khmer1 = document.querySelector('.khmer1');
+             var khmer2 = document.querySelector('.khmer2');
+             var line = document.querySelector('.line');
+             day.classList.toggle('add_day');
+             opacity1.classList.toggle('add_body');
+             khmer.classList.toggle('add_khmer');
+             khmer1.classList.toggle('add_khmer')
+             khmer2.classList.toggle('add_khmer')
+             line.classList.toggle('add_line');
+                 
+        })
+
+   var sign = document.querySelector('.btn-danger');
+       sign.addEventListener('click',()=>{
+           var login = document.querySelector('.box-login');
+           var show  = document.querySelector('.show');
+               login.classList.toggle('add_login');
+               show.classList.add('add_show');
+
+       })
+   
+   var show = document.querySelector('.show');
+       show.addEventListener('click',()=>{
+         var login = document.querySelector('.box-login');
+         var show  = document.querySelector('.show');
+             login.classList.remove('add_login');
+             show.classList.remove('add_show');
+           
+       })
+
+   var cancel = document.querySelector('.cancel');
+       cancel.addEventListener('click',()=>{
+         var login = document.querySelector('.box-login');
+         var show  = document.querySelector('.show');
+             login.classList.remove('add_login');
+             show.classList.remove('add_show');
+       })
+   var login = document.querySelector('.login');
+       login.addEventListener('click',()=>{
+         var login = document.querySelector('.box-login');
+         var show  = document.querySelector('.show');
+             login.classList.remove('add_login');
+             show.classList.remove('add_show');
+       })
+
+   $(document).ready(function(){
+
+        // ====>responsive navbar<====
+        $('.fa-list').on('click',function(){
+           $('.box-list').slideToggle();
+        })
+
+        $('.fa-circle-user').on('click',()=>{
+           $('.res_opacity1').fadeToggle();
+        })
+
+       
+
+        // ====>responsive navbar<====
+
+       $('.btn-click').on('click',function(){
+          $('.opacity2').slideDown();
+           
+          var title = $(this).parents('.col-3_opacity').children('.box-detail').find('h3').html();
+          var img   = $(this).parents('.col-3').find('img').attr('src');
+          var img2  = $(this).parents('.col-3').children('.img2').find('img').attr('src');
+          var img3  = $(this).parents('.col-3').children('.img3').find('img').attr('src');
+          var img4  = $(this).parents('.col-3').children('.img4').find('img').attr('src');
+          var p_title= $(this).parents('.col-3_opacity').children('.box-detail').find('p').html();
+
+          $('.d-right').children('.right-bot').find('h3').html(title);
+          $('.d-right').children('.right-bot').find('p').html(p_title);
+          $('.detail').children('.d-right').children('.right-top').children('.top-left').find('img').attr('src',img2);
+          $('.detail').children('.d-right').children('.right-top').children('.top-center').find('img').attr('src',img3);
+          $('.detail').children('.d-right').children('.right-top').children('.top-right').find('img').attr('src',img4);
+
+          $('.detail').children('.d-left').find('img').attr('src',img);
+
+       })
+
+       $('.opacity2').on('click',()=>{
+           $('.opacity2').slideUp();
+       })
+
+       $('.top-left').mouseover(function(){
+        //   alert(1);
+       })
+   })    
+
+</script>
